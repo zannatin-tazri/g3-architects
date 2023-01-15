@@ -2,6 +2,7 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+
 /* Header styles */
 
 .header {
@@ -31,6 +32,7 @@ nav ul {
     font-weight: 500;
     font-size: 18px;
 }
+
 
 /* Banner */
 .banner {
@@ -75,6 +77,8 @@ nav ul {
     align-items: center;
     margin-bottom: 40px;
 }
+
+
 
 /* Teams and Features */
 
@@ -126,6 +130,7 @@ nav ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
+
 
 /* Features */
 
@@ -219,6 +224,8 @@ nav ul {
     padding: 60px;
 }
 
+
+
 /* Sponsors */
 .sponsor{
     
@@ -243,6 +250,8 @@ nav ul {
     margin-bottom: 100px;
 }
 
+
+
 /* Footer */
 footer{
     padding: 0 180px;
@@ -265,12 +274,15 @@ footer{
 
 
 
-/* Media Queries */
+/* Media Queries for Mobile device*/
+
 @media only screen and (max-width:576px) {
+
+/* Header */
 
     nav {
         display: grid;
-        /* grid-template-columns: repeat(1,1fr); */
+        
         align-items: center;
         padding-left: 50px;
         width: 100%;
@@ -280,6 +292,7 @@ footer{
         padding: initial;
     }
 
+    /* Banner */
     .banner-title {
         font-weight: 500px;
         font-size: 30px;
@@ -365,6 +378,8 @@ footer{
         margin-bottom: 20px;
     }
 
+    /* Sponsor */
+
     .sponsor{
         text-align: center;
         margin-top:0;
@@ -378,13 +393,10 @@ footer{
         gap: 70px;
     }
 
+    /* Footer */
+
     footer{
         padding: 0 10px;
         margin-bottom: 180px;
-    }
-
-
-    .hide {
-        display: none;
     }
 }
